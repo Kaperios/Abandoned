@@ -1,0 +1,6 @@
+setIcon("forestry:engine_clockwork")
+setTitle("First power")
+setDescription("This is your first engine. It's 100% manual but it works. Just hold right click on it and when it's hot release the button and wait")
+setParent("triumph:age1/blacksmithsWorktable")
+criteria = addCriteria("cluster", "minecraft:inventory_changed")
+criteria.addItem("forestry:engine_clockwork")

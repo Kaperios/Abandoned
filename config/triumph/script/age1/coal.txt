@@ -1,0 +1,6 @@
+setIcon("minecraft:coal")
+setTitle("This is black")
+setDescription("Better fuel for your new beautiful furnace? Why not")
+setParent("triumph:age1/pickaxe")
+criteria = addCriteria("coal", "minecraft:inventory_changed")
+criteria.addItem("minecraft:coal")

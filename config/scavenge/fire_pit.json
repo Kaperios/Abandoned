@@ -1,0 +1,43 @@
+{
+	"block_pools":
+	[
+		{
+			"name": "FirePit",
+			"type":
+			{
+				"type": "block",
+				"name": "minecraft:dirt"
+			},
+			"properties":
+			[
+				{
+					"type": "require_tool",
+					"tool": "shovel",
+					"level": 0
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "consume_block",
+					"name": "clayindirt:fire_pit"
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "You need to sneak to make Fire Pit!"
+				},
+				{
+					"id": "require_tool",
+					"message": "You need to use shovel to make Fire Pit!"
+				},
+				{
+					"id": "success",
+					"message": "You successfully dig out Fire Pit!"
+				}
+			]
+		}
+	]
+}

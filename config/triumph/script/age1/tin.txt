@@ -1,0 +1,6 @@
+setIcon("geolosys:cluster", 3)
+setTitle("Tin.")
+setDescription("Tin. It works pretty well with copper.")
+setParent("triumph:age1/stonePickaxe")
+criteria = addCriteria("cluster", "minecraft:inventory_changed")
+criteria.addItem("geolosys:cluster", 3)

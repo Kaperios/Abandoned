@@ -1,0 +1,6 @@
+setIcon("artisanworktables:worktable", 2)
+setTitle("Brickman")
+setDescription("In this table you're going to create bricks! Crazy right?")
+setParent("triumph:age1/basicWorktable")
+criteria = addCriteria("cluster", "minecraft:inventory_changed")
+criteria.addItem("artisanworktables:worktable", 2)

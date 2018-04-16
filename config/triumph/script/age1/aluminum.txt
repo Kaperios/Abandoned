@@ -1,0 +1,6 @@
+setIcon("geolosys:cluster", 6)
+setTitle("Fake Steel")
+setDescription("Aluminum. Resource that you see everywhere, even ingame.")
+setParent("triumph:age1/stonePickaxe")
+criteria = addCriteria("cluster", "minecraft:inventory_changed")
+criteria.addItem("geolosys:cluster", 6)

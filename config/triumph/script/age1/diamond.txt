@@ -1,0 +1,6 @@
+setIcon("minecraft:diamond")
+setTitle("Shiny!")
+setDescription("Everyone loves these!")
+setParent("triumph:age1/ironPickaxe")
+criteria = addCriteria("cluster", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond")

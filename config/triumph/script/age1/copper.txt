@@ -1,0 +1,6 @@
+setIcon("geolosys:cluster", 2)
+setTitle("Shouldn't this be orange?")
+setDescription("Copper, pretty useful resource. You can find it in 2 ores.")
+setParent("triumph:age1/stonePickaxe")
+criteria = addCriteria("cluster", "minecraft:inventory_changed")
+criteria.addItem("geolosys:cluster", 2)

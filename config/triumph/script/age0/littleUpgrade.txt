@@ -1,0 +1,6 @@
+setIcon("charset:pockettable")
+setTitle("Little Upgrade")
+setDescription("Now you can craft in our inventory. You probably want to upgrade it later tho. It uses inventory slots as crafting space.")
+setParent("triumph:age0/craftingTime")
+criteria = addCriteria("pocketcrafting", "minecraft:inventory_changed")
+criteria.addItem("charset:pockettable")

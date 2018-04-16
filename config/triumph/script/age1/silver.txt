@@ -1,0 +1,6 @@
+setIcon("geolosys:cluster", 4)
+setTitle("First is the Worst")
+setDescription("Silver. Less expensive than gold but still useful.")
+setParent("triumph:age1/ironPickaxe")
+criteria = addCriteria("cluster", "minecraft:inventory_changed")
+criteria.addItem("geolosys:cluster", 4)

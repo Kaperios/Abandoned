@@ -1,0 +1,6 @@
+setIcon("clayindirt:magnifying_glass")
+setTitle("Is it balanced?")
+setDescription("Clay can be easily found in dirt. Didn't you know about it? Just grab yourself Mangifying Glass and check it out yourself")
+setParent("triumph:age0/shovel")
+criteria = addCriteria("magnifying_glass", "minecraft:inventory_changed")
+criteria.addItem("clayindirt:magnifying_glass")

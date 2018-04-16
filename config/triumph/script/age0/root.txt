@@ -1,0 +1,8 @@
+setIcon("minecraft:water_bucket")
+setTitle("Age 0")
+setDescription("And now you realised that the only things you see is water and squids")
+setBackground("minecraft:textures/blocks/gravel.png")
+setShowToast(true)
+setAnnounceToChat(false)
+addCriteria("location", "minecraft:location")
+setRequirements(any)

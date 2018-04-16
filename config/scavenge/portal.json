@@ -1,0 +1,43 @@
+{
+	"block_pools":
+	[
+		{
+			"name": "MiningWorldPortal",
+			"type":
+			{
+				"type": "block",
+				"name": "contenttweaker:mining_world_portal"
+			},
+			"properties":
+			[
+				{
+					"type": "require_empty_Hand"
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "use_command",
+					"name": "tpj",
+					"arguments": ["70"]
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_empty_Hand",
+					"message": "You need to have empty hand to teleport!"
+				},
+				{
+					"id": "require_sneak",
+					"message": "You need to sneak to teleport!"
+				},
+				{
+					"id": "success",
+					"message": "You successfully teleported to the mining dimension!"
+				}
+			]
+		}
+		
+	]
+}

@@ -1,0 +1,6 @@
+setIcon("immersiveengineering:tool", 3)
+setTitle("RTFM")
+setDescription("Just read the title.")
+setParent("triumph:age1/masonsWorktable")
+criteria = addCriteria("cluster", "minecraft:inventory_changed")
+criteria.addItem("immersiveengineering:tool", 3)

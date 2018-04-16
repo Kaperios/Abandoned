@@ -1,0 +1,6 @@
+setIcon("geolosys:cluster", 5)
+setTitle("This is Heavy")
+setDescription("Lead. Heavy material that you will probably use for batteries.")
+setParent("triumph:age1/stonePickaxe")
+criteria = addCriteria("cluster", "minecraft:inventory_changed")
+criteria.addItem("geolosys:cluster", 5)

@@ -1,0 +1,6 @@
+setIcon("immersiveengineering:stone_device", 7)
+setTitle("Alloys!")
+setDescription("This multiblock will allow you to make alloys. Finally")
+setParent("triumph:age1/blastFurnace")
+criteria = addCriteria("cluster", "minecraft:inventory_changed")
+criteria.addItem("immersiveengineering:stone_decoration", 10)

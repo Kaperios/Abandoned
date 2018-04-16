@@ -1,0 +1,8 @@
+setIcon("contenttweaker:mining_world_portal")
+setTitle("Age 1")
+setDescription("After you got a better way to get resources it's time to progress!")
+setBackground("minecraft:textures/blocks/sandstone_normal.png")
+setShowToast(true)
+setAnnounceToChat(true)
+criteria = addCriteria("age1", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:age0/portal")

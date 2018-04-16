@@ -1,0 +1,58 @@
+{
+  "dimensions": [
+  {
+      "dim": 0,
+      "biome": "minecraft:ocean",
+      "dimensiontype": {
+          "id": 0,
+          "name": "Overworld",
+          "suffix": "_dim0",
+          "keeploaded": false,
+          "worldprovider": "WorldProviderSurfaceJED"
+      },
+      "jed": {
+          "SkyColor": "3FDB9B",
+          "FogColor": "A5C5CE",
+          "CloudColor": "F7F3CF",
+          "SkyRenderType": 1,
+          "Colors": {
+              "FoliageColors": [
+                  {
+                      "biome": "minecraft:ocean",
+                      "color": "0F962B"
+                  }
+              ],
+              "GrassColors": [
+                  {
+                      "biome": "minecraft:ocean",
+                      "color": "0F962B"
+                  }
+              ],
+              "WaterColors": [
+                  {
+                      "biome": "minecraft:ocean",
+                      "color": "0D91D8"
+                  }
+              ]
+          }
+      }
+  },
+  {
+      "dim": 70,
+      "biome": "minecraft:desert",
+      "dimensiontype": {
+          "id": 70,
+          "name": "Mining Dimension",
+          "suffix": "_dim70",
+          "keeploaded": false,
+          "worldprovider": "WorldProviderSurfaceJED"
+      },
+      "jed": {
+          "SkyColor": "0F78EE",
+          "FogColor": "233F5E",
+          "SkyRenderType": 1,
+          "CanRespawnHere": false
+          }
+      }
+  ]
+}

@@ -1,0 +1,6 @@
+setIcon("clayindirt:basic_firestarter")
+setTitle("Is this...fire?")
+setDescription("You want this to start smelting. Just be aware that it won't create fire every time!")
+setParent("triumph:age0/clay")
+criteria = addCriteria("starter", "minecraft:inventory_changed")
+criteria.addItem("clayindirt:basic_firestarter")

@@ -1,0 +1,8 @@
+setIcon("minecraft:crafting_table")
+setTitle("Crafting Time!")
+setDescription("You can finally use the 3x3 speedy crafting table. Thanks Shadows")
+setParent("triumph:age0/noTreePunching")
+criteria = addCriteria("table", "minecraft:inventory_changed")
+criteria.addItem("minecraft:crafting_table")
+setShowToast(true)
+setAnnounceToChat(true)

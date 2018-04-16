@@ -1,0 +1,6 @@
+setIcon("ceramics:clay_bucket")
+setTitle("Moving water around")
+setDescription("You know this one! It just allows you to move fluids around but just the cool ones, hot ones will melt bucket down after 1 use")
+setParent("triumph:age0/fire")
+criteria = addCriteria("clayBucket", "minecraft:inventory_changed")
+criteria.addItem("ceramics:clay_bucket")

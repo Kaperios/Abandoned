@@ -1,0 +1,6 @@
+setIcon("geolosys:cluster", 0)
+setTitle("That's what I wanted")
+setDescription("Iron! You can make better tools out of it. Unlocks some new mods...")
+setParent("triumph:age1/stonePickaxe")
+criteria = addCriteria("cluster", "minecraft:inventory_changed")
+criteria.addItem("geolosys:cluster", 0)

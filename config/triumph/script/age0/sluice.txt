@@ -1,0 +1,6 @@
+setIcon("magneticraft:sluice_box")
+setTitle("First resources")
+setDescription("Now when you have bricks and bucket you can finally make sluice box. If you insert 1-10 gravel and put some water in there it will sift this gravel in search of resource nuggets")
+setParent("triumph:age0/clayBucket")
+criteria = addCriteria("sluice", "minecraft:inventory_changed")
+criteria.addItem("magneticraft:sluice_box")

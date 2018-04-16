@@ -1,0 +1,6 @@
+setIcon("geolosys:cluster", 1)
+setTitle("Expensive!")
+setDescription("Gold is a good power conductor. Also used in a few alloys")
+setParent("triumph:age1/ironPickaxe")
+criteria = addCriteria("cluster", "minecraft:inventory_changed")
+criteria.addItem("geolosys:cluster", 1)

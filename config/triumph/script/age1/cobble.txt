@@ -1,0 +1,6 @@
+setIcon("minecraft:cobblestone")
+setTitle("Just Regular Cobble")
+setDescription("You can build 9x9 platform out of it!")
+setParent("triumph:age1/pickaxe")
+criteria = addCriteria("cobblee", "triumph:player_break_block")
+criteria.setBlock("minecraft:stone")

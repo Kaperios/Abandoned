@@ -1,0 +1,7 @@
+setIcon("contenttweaker:mining_world_portal")
+setTitle("Actual ores?!?")
+setDescription("Now when you have some metals you can teleport to the new, better dimension. It contains 'normal' ores. To use it just shift right click with bare hands")
+setParent("triumph:age0/sluice")
+criteria = addCriteria("portal", "minecraft:inventory_changed")
+criteria.addItem("contenttweaker:mining_world_portal")
+setFrameType("CHALLENGE")

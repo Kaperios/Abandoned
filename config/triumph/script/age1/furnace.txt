@@ -1,0 +1,6 @@
+setIcon("minecraft:furnace")
+setTitle("Something is Burning")
+setDescription("Now you don't need to wait so long for all these things to smelt")
+setParent("triumph:age1/cobble")
+criteria = addCriteria("furnace", "minecraft:inventory_changed")
+criteria.addItem("minecraft:furnace")

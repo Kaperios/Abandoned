@@ -1,0 +1,6 @@
+setIcon("minecraft:redstone")
+setTitle("Vanilla Power")
+setDescription("One thing you either love or don't understand well enough.")
+setParent("triumph:age1/ironPickaxe")
+criteria = addCriteria("cluster", "minecraft:inventory_changed")
+criteria.addItem("minecraft:redstone")

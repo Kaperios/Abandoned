@@ -1,0 +1,6 @@
+setIcon("immersiveengineering:tool")
+setTitle("I'm an engineer")
+setDescription("It allows you to form a multiblocks \o/")
+setParent("triumph:age1/menrilSapling")
+criteria = addCriteria("cluster", "minecraft:inventory_changed")
+criteria.addItem("immersiveengineering:tool")

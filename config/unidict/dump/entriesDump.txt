@@ -1,0 +1,294 @@
+Steel
+	blockSteel
+	plateSteel
+	ingotSteel
+	plateDenseSteel
+	dustSteel
+
+RefinedIron
+
+Silver
+	clumpSilver
+	dustDirtySilver
+	oreSilver
+	boltSilver
+	crushedPurifiedSilver
+	casingSilver
+	blockSilver
+	shardSilver
+	rodSilver
+	gearSilver
+	crushedSilver
+	nuggetSilver
+	plateSilver
+	ingotSilver
+	dustSilver
+	dustTinySilver
+	denseOreSilver
+
+Brick
+	ingotBrick
+
+Titanium
+	oreTitanium
+	boltTitanium
+	casingTitanium
+	blockTitanium
+	rodTitanium
+	gearTitanium
+	nuggetTitanium
+	plateTitanium
+	ingotTitanium
+	dustTitanium
+	denseOreTitanium
+
+Tungsten
+	oreTungsten
+	boltTungsten
+	casingTungsten
+	blockTungsten
+	rodTungsten
+	gearTungsten
+	nuggetTungsten
+	plateTungsten
+	ingotTungsten
+	dustTungsten
+	denseOreTungsten
+
+Osmium
+	clumpOsmium
+	dustDirtyOsmium
+	oreOsmium
+	boltOsmium
+	casingOsmium
+	blockOsmium
+	shardOsmium
+	rodOsmium
+	gearOsmium
+	nuggetOsmium
+	plateOsmium
+	ingotOsmium
+	dustOsmium
+	denseOreOsmium
+
+RefinedObsidian
+	blockRefinedObsidian
+	ingotRefinedObsidian
+	dustRefinedObsidian
+
+Iron
+	clumpIron
+	dustDirtyIron
+	oreIron
+	boltIron
+	crushedPurifiedIron
+	casingIron
+	blockIron
+	shardIron
+	rodIron
+	gearIron
+	crushedIron
+	nuggetIron
+	plateIron
+	ingotIron
+	plateDenseIron
+	dustIron
+	dustTinyIron
+	denseOreIron
+
+Mithril
+	oreMithril
+	boltMithril
+	casingMithril
+	blockMithril
+	rodMithril
+	gearMithril
+	nuggetMithril
+	plateMithril
+	ingotMithril
+	dustMithril
+	denseOreMithril
+
+Bronze
+	blockBronze
+	plateBronze
+	ingotBronze
+	plateDenseBronze
+	dustBronze
+	dustTinyBronze
+
+Iridium
+	oreIridium
+	boltIridium
+	casingIridium
+	blockIridium
+	rodIridium
+	gearIridium
+	nuggetIridium
+	plateIridium
+	ingotIridium
+	dustIridium
+	denseOreIridium
+
+Cobalt
+	oreCobalt
+	boltCobalt
+	casingCobalt
+	blockCobalt
+	rodCobalt
+	gearCobalt
+	nuggetCobalt
+	plateCobalt
+	ingotCobalt
+	dustCobalt
+	denseOreCobalt
+
+Gold
+	clumpGold
+	dustDirtyGold
+	oreGold
+	boltGold
+	crushedPurifiedGold
+	casingGold
+	blockGold
+	shardGold
+	rodGold
+	gearGold
+	crushedGold
+	nuggetGold
+	plateGold
+	ingotGold
+	plateDenseGold
+	dustGold
+	dustTinyGold
+	denseOreGold
+
+Copper
+	clumpCopper
+	dustDirtyCopper
+	oreCopper
+	boltCopper
+	crushedPurifiedCopper
+	casingCopper
+	blockCopper
+	shardCopper
+	rodCopper
+	gearCopper
+	crushedCopper
+	nuggetCopper
+	plateCopper
+	ingotCopper
+	plateDenseCopper
+	dustCopper
+	dustTinyCopper
+	denseOreCopper
+
+Nickel
+	oreNickel
+	boltNickel
+	casingNickel
+	blockNickel
+	rodNickel
+	gearNickel
+	nuggetNickel
+	plateNickel
+	ingotNickel
+	dustNickel
+	denseOreNickel
+
+Platinum
+	orePlatinum
+	boltPlatinum
+	casingPlatinum
+	blockPlatinum
+	rodPlatinum
+	gearPlatinum
+	nuggetPlatinum
+	platePlatinum
+	ingotPlatinum
+	dustPlatinum
+	denseOrePlatinum
+
+Aluminium
+	oreAluminium
+	boltAluminium
+	casingAluminium
+	blockAluminium
+	rodAluminium
+	gearAluminium
+	nuggetAluminium
+	plateAluminium
+	ingotAluminium
+	dustAluminium
+	denseOreAluminium
+
+Zinc
+	oreZinc
+	boltZinc
+	casingZinc
+	blockZinc
+	rodZinc
+	gearZinc
+	nuggetZinc
+	plateZinc
+	ingotZinc
+	dustZinc
+	denseOreZinc
+
+Tin
+	clumpTin
+	dustDirtyTin
+	oreTin
+	boltTin
+	crushedPurifiedTin
+	casingTin
+	blockTin
+	shardTin
+	rodTin
+	gearTin
+	crushedTin
+	nuggetTin
+	plateTin
+	ingotTin
+	plateDenseTin
+	dustTin
+	dustTinyTin
+	denseOreTin
+
+RefinedGlowstone
+	blockRefinedGlowstone
+	ingotRefinedGlowstone
+
+Ardite
+	oreArdite
+	boltArdite
+	casingArdite
+	blockArdite
+	rodArdite
+	gearArdite
+	nuggetArdite
+	plateArdite
+	ingotArdite
+	dustArdite
+	denseOreArdite
+
+Lead
+	clumpLead
+	dustDirtyLead
+	oreLead
+	boltLead
+	crushedPurifiedLead
+	casingLead
+	blockLead
+	shardLead
+	rodLead
+	gearLead
+	crushedLead
+	nuggetLead
+	plateLead
+	ingotLead
+	plateDenseLead
+	dustLead
+	dustTinyLead
+	denseOreLead
+

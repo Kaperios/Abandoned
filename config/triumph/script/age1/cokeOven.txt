@@ -1,0 +1,6 @@
+setIcon("immersiveengineering:stone_device")
+setTitle("Coke")
+setDescription("Just form this multiblock already. I know you wanted to do this for a long time.")
+setParent("triumph:age1/manual")
+criteria = addCriteria("cluster", "minecraft:inventory_changed")
+criteria.addItem("immersiveengineering:stone_decoration")

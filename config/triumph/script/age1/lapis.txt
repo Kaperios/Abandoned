@@ -1,0 +1,6 @@
+setIcon("minecraft:dye", 4)
+setTitle("I'm Blue")
+setDescription("This is a dye. It's blue. It's also used not as dye.")
+setParent("triumph:age1/stonePickaxe")
+criteria = addCriteria("cluster", "minecraft:inventory_changed")
+criteria.addItem("minecraft:dye", 4)

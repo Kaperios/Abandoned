@@ -1,0 +1,194 @@
+Lead
+	oreLead
+	blockLead
+	rodLead
+	gearLead
+	nuggetLead
+	plateLead
+	ingotLead
+	dustLead
+	dustTinyLead
+
+Mithril
+	oreMithril
+	blockMithril
+	rodMithril
+	gearMithril
+	nuggetMithril
+	plateMithril
+	ingotMithril
+	dustMithril
+
+Silver
+	oreSilver
+	blockSilver
+	rodSilver
+	gearSilver
+	nuggetSilver
+	plateSilver
+	ingotSilver
+	dustSilver
+	dustTinySilver
+
+Stone
+	dustStone
+
+Nickel
+	oreNickel
+	blockNickel
+	rodNickel
+	gearNickel
+	nuggetNickel
+	plateNickel
+	ingotNickel
+	dustNickel
+
+Titanium
+	oreTitanium
+	blockTitanium
+	rodTitanium
+	gearTitanium
+	nuggetTitanium
+	plateTitanium
+	ingotTitanium
+	dustTitanium
+
+Tungsten
+	oreTungsten
+	blockTungsten
+	rodTungsten
+	gearTungsten
+	nuggetTungsten
+	plateTungsten
+	ingotTungsten
+	dustTungsten
+
+Salt
+	dustSalt
+
+Coal
+	dustCoal
+
+Osmium
+	oreOsmium
+	blockOsmium
+	rodOsmium
+	gearOsmium
+	nuggetOsmium
+	plateOsmium
+	ingotOsmium
+	dustOsmium
+
+Iron
+	oreIron
+	blockIron
+	rodIron
+	gearIron
+	nuggetIron
+	plateIron
+	ingotIron
+	dustIron
+	dustTinyIron
+
+Sulfur
+	dustSulfur
+
+Steel
+	blockSteel
+	plateSteel
+	ingotSteel
+	dustSteel
+
+Bronze
+	blockBronze
+	plateBronze
+	ingotBronze
+	dustBronze
+	dustTinyBronze
+
+Iridium
+	oreIridium
+	blockIridium
+	rodIridium
+	gearIridium
+	nuggetIridium
+	plateIridium
+	ingotIridium
+	dustIridium
+
+Gold
+	oreGold
+	blockGold
+	rodGold
+	gearGold
+	nuggetGold
+	plateGold
+	ingotGold
+	dustGold
+	dustTinyGold
+
+Copper
+	oreCopper
+	blockCopper
+	rodCopper
+	gearCopper
+	nuggetCopper
+	plateCopper
+	ingotCopper
+	dustCopper
+	dustTinyCopper
+
+Obsidian
+	dustObsidian
+
+Aluminium
+	oreAluminium
+	blockAluminium
+	rodAluminium
+	gearAluminium
+	nuggetAluminium
+	plateAluminium
+	ingotAluminium
+	dustAluminium
+
+Zinc
+	oreZinc
+	blockZinc
+	rodZinc
+	gearZinc
+	nuggetZinc
+	plateZinc
+	ingotZinc
+	dustZinc
+
+Tin
+	oreTin
+	blockTin
+	rodTin
+	gearTin
+	nuggetTin
+	plateTin
+	ingotTin
+	dustTin
+	dustTinyTin
+
+Platinum
+	orePlatinum
+	blockPlatinum
+	rodPlatinum
+	gearPlatinum
+	nuggetPlatinum
+	platePlatinum
+	ingotPlatinum
+	dustPlatinum
+
+Ardite
+	oreArdite
+	blockArdite
+	rodArdite
+	gearArdite
+	nuggetArdite
+	plateArdite
+	ingotArdite
+	dustArdite
+

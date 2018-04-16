@@ -1,0 +1,8 @@
+setIcon("toolbox:axe", 0, {Head: "flint", Haft: "wood", ADORNMENT: "null", Handle: "wood"})
+setTitle("No Tree Punching???")
+setDescription("You've probably wondered what are the schematics in your inventory for and at the same time couldn't break tree with bare hands! I suggest throwing 3 flint with schematic into a crafting. Then connect this piece with 2 sticks. Now you can destroy that tree.")
+setParent("triumph:age0/root")
+criteria = addCriteria("axe", "minecraft:inventory_changed")
+criteria.addItem("toolbox:axe", 0, {Head: "flint", Haft: "wood", ADORNMENT: "null", Handle: "wood"})
+setShowToast(true)
+setAnnounceToChat(true)

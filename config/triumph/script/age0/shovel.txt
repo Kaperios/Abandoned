@@ -1,0 +1,6 @@
+setIcon("toolbox:shovel", 0, {Head: "flint", Haft: "wood", ADORNMENT: "null", Handle: "wood"})
+setTitle("Diggy Diggy Hole")
+setDescription("You know how to create these, don't you? Just use shovel schematic with only 1 piece of flint! After you get one shovel yourself just try to dig out hole with it - Shift + Right Click")
+setParent("triumph:age0/craftingTime")
+criteria = addCriteria("shovel", "minecraft:inventory_changed")
+criteria.addItem("toolbox:shovel", 0, {Head: "flint", Haft: "wood", ADORNMENT: "null", Handle: "wood"})

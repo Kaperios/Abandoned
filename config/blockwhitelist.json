@@ -1,0 +1,14 @@
+[
+  {
+    "dimension": 0,
+    "message": {
+      "text": "Example config/blockwhitelist.json loaded!"
+    },
+    "blacklist": [
+    ]
+  },
+  {
+    "dimension": -1,
+    "blacklist": []
+  }
+]

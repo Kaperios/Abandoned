@@ -1,0 +1,6 @@
+setIcon("spartanshields:shield_basic_stone")
+setTitle("He Protec...")
+setDescription("And now these skeletons won't annoy you that much. Probably")
+setParent("triumph:age1/cobble")
+criteria = addCriteria("shield", "minecraft:inventory_changed")
+criteria.addItem("spartanshields:shield_basic_stone")

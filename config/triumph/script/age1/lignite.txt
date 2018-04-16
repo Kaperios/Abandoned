@@ -1,0 +1,6 @@
+setIcon("geolosys:coal", 1)
+setTitle("Sounds bad. Doesn't it?")
+setDescription("This type of black thingy smelts 16 items. Double the efficiency!")
+setParent("triumph:age1/coal")
+criteria = addCriteria("coal", "minecraft:inventory_changed")
+criteria.addItem("geolosys:coal", 1)
