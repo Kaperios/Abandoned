@@ -34,3 +34,6 @@ config/triumph/script/example/
 resources/contenttweaker/blockstates/
 resources/contenttweaker/models/
 config/AppliedEnergistics2/aerecipes
+local/ftbutilities/all_configs.html
+local/ftbutilities/all_permissions.html
+config/ocsensors/javascript/vanilla.js
