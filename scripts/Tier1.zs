@@ -12,7 +12,6 @@ val partRods = [<materialpart:iron:crude_rod>, <materialpart:copper:crude_rod>, 
 val plates = [<materialpart:iron:plate>, <materialpart:copper:plate>, <materialpart:steel:plate>] as IItemStack[];
 val gears = [<materialpart:iron:gear>, <materialpart:copper:gear>, <materialpart:steel:gear>] as IItemStack[];
 val rods = [<materialpart:iron:rod>, <materialpart:copper:rod> ,<materialpart:steel:rod>] as IItemStack[];
-
 val creosoteBucket = <ore:creosoteBucket>;
 creosoteBucket.add(<forge:bucketfilled>.withTag({FluidName: "creosote", Amount: 1000}));
 creosoteBucket.add(<ceramics:clay_bucket>.withTag({fluids: {FluidName: "creosote", Amount: 1000}}));
@@ -23,15 +22,12 @@ recipes.addShapeless(<immersiveengineering:treated_wood>, [<immersiveengineering
 recipes.addShapeless(<immersiveengineering:treated_wood>, [<immersiveengineering:treated_wood:2>]);
 recipes.addShaped(<immersiveengineering:treated_wood>, [[<integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>], [<integrateddynamics:menril_planks>, creosoteBucket, <integrateddynamics:menril_planks>], [<integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>]]);
 //Mining World Portal
-recipes.addShaped(<contenttweaker:mining_world_portal>, [[<ore:sandstone>, <ore:ingotCopper>, <ore:sandstone>], [<ore:ingotIron>, <clayindirt:string_firestarter>, <ore:ingotTin>], [<ore:sandstone>, <ore:flint>, <ore:sandstone>]]);
+recipes.addShaped(<contenttweaker:mining_world_portal>, [[<ore:sandstone>, <ore:ingotCopper>, <ore:sandstone>], [<ore:ingotIron>, <clayindirt:basic_firestarter>, <ore:ingotTin>], [<ore:sandstone>, <ore:flint>, <ore:sandstone>]]);
 //Pickaxe Head Schematic
 recipes.addShaped(<toolbox:schematic>.withTag({Type: "pickaxe_head"}), [[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, <minecraft:cactus>, null], [null, <minecraft:cactus>, null]]);
 //Furnace
 recipes.removeShaped(<minecraft:furnace>);
 recipes.addShaped(<minecraft:furnace>, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, null, <ore:cobblestone>], [<ore:sandstone>, <ore:sandstone>, <ore:sandstone>]]);
-//Cobblestone from Rock
-recipes.removeShaped(<minecraft:cobblestone>, [[<toolbox:rock>, <toolbox:rock>, <toolbox:rock>], [<toolbox:rock>, <toolbox:rock>, <toolbox:rock>], [<toolbox:rock>, <toolbox:rock>, <toolbox:rock>]]);
-mods.recipestages.Recipes.addShaped("tierOne", <minecraft:cobblestone>, [[<toolbox:rock>, <toolbox:rock>, <toolbox:rock>], [<toolbox:rock>, <toolbox:rock>, <toolbox:rock>], [<toolbox:rock>, <toolbox:rock>, <toolbox:rock>]]);
 //Coke Brick
 recipes.remove(<immersiveengineering:stone_decoration>);
 var cokeBrick = RecipeBuilder.get("mason");

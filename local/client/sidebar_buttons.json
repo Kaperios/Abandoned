@@ -1,6 +1,10 @@
 {
+	"ftblib": {
+		"my_team": true,
+		"settings": true,
+		"admin_panel": true
+	},
 	"ftbutilities": {
-		"leaderboards": true,
 		"toggle.gamemode": true,
 		"toggle.rain": true,
 		"toggle.day": true,
@@ -8,6 +12,6 @@
 		"heal": true,
 		"claimed_chunks": true,
 		"trash_can": true,
-		"view_crash": false
+		"leaderboards": true
 	}
 }
