@@ -2,6 +2,7 @@ setIcon("toolbox:pickaxe", 0, {Head: "flint", Haft: "wood", ADORNMENT: "null", H
 setTitle("Where is that stone?")
 setDescription("I've already said how do you make these. The only tip i will give you this time is that you can find sugarcane on the desert. Also take a note that from now every tool you make can be made out of any mterials that you can get. The only thing that you can't change for the advancment are heads.")
 setParent("triumph:age1/root")
+setPos(1,5)
 criteria = addCriteria("pickaxe", "minecraft:inventory_changed")
 criteria.addItem("toolbox:pickaxe", 0, {Head: "flint", Haft: "wood", ADORNMENT: "null", Handle: "leather"})
 criteria.addItem("toolbox:pickaxe", 0, {Head: "flint", Haft: "wood", ADORNMENT: "null", Handle: "wood"})

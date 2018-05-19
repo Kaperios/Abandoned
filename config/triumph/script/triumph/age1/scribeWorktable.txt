@@ -1,0 +1,7 @@
+setIcon("artisanworktables:worktable", 8)
+setTitle("True Poem Writer")
+setDescription("You feel the power of words now, don't you?")
+setParent("triumph:age1/basicWorktable")
+setPos(5,8.5)
+criteria = addCriteria("table", "minecraft:inventory_changed")
+criteria.addItem("artisanworktables:worktable", 8)

@@ -2,6 +2,7 @@ setIcon("toolbox:pickaxe", 0, {Head: "iron", Haft: "wood", ADORNMENT: "null", Ha
 setTitle("Can it mine diamonds?")
 setDescription("Yes it can. Also it can mine few other useful ores as Cinnabar, Gold, Sphalerite, Limonite and Galena.")
 setParent("triumph:age1/furnace")
+setPos(4,7.5)
 criteria = addCriteria("pickaxe", "minecraft:inventory_changed")
 criteria.addItem("toolbox:pickaxe", 0, {Head: "iron", Haft: "wood", ADORNMENT: "null", Handle: "leather"})
 criteria.addItem("toolbox:pickaxe", 0, {Head: "iron", Haft: "wood", ADORNMENT: "null", Handle: "wood"})

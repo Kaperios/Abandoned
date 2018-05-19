@@ -2,6 +2,7 @@ setIcon("toolbox:sword", 0, {Crossguard: "stone", Blade: "stone", ADORNMENT: "nu
 setTitle("...But Also He Attac")
 setDescription("No tips this time.")
 setParent("triumph:age1/shield")
+setPos(4,9.5)
 criteria = addCriteria("sword", "minecraft:inventory_changed")
 criteria.addItem("toolbox:sword", 0, {Crossguard: "flint", Blade: "stone", ADORNMENT: "null", Handle: "bone"})
 criteria.addItem("toolbox:sword", 0, {Crossguard: "flint", Blade: "stone", ADORNMENT: "null", Handle: "wood"})

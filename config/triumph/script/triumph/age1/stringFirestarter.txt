@@ -1,6 +1,7 @@
 setIcon("clayindirt:string_firestarter")
 setTitle("Moar Fire")
 setDescription("Just an upgraded firestarter with higher chance of setting fire and higher durability")
+setPos(2,6)
 setParent("triumph:age1/sword")
 criteria = addCriteria("starter", "minecraft:inventory_changed")
 criteria.addItem("clayindirt:string_firestarter")

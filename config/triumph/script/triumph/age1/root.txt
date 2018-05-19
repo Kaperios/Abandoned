@@ -4,5 +4,6 @@ setDescription("After you got a better way to get resources it's time to progres
 setBackground("minecraft:textures/blocks/sandstone_normal.png")
 setShowToast(true)
 setAnnounceToChat(true)
+setPos(0,5)
 criteria = addCriteria("age1", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:age0/portal")

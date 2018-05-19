@@ -1,5 +1,5 @@
 printDefaultConfigs(false)
-printDocumentation(false)
+printDocumentation(true)
 removeVanillaAdvancements(true)
 removeModAdvancements(true)
 keepAdvancements([""])
