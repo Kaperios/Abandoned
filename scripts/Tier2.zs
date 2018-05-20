@@ -7,9 +7,15 @@ mods.immersiveengineering.MetalPress.addRecipe(<pneumaticcraft:ingot_iron_compre
 //Air Compressor
 recipes.remove(<pneumaticcraft:air_compressor>);
 recipes.addShaped(<pneumaticcraft:air_compressor>, [[<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, null, <pneumaticcraft:pressure_tube>], [<ore:ingotIronCompressed>, <ic2:te:46>, <ore:ingotIronCompressed>]]);
+//Designer Worktable
+recipes.addShaped(<artisanworktables:worktable:12>, [[<ore:dyeWhite>, <contenttweaker:blue_paper>, <ore:dyeWhite>], [<minecraft:concrete:3>, <minecraft:cocnrete:3>, <minecraft:concrete:3>], [null, <artisanworktables:worktable5>]]);
 //Hydraulic Press
 recipes.removeShaped(<magneticraft:hydraulic_press>);
-recipes.addShapeless(<magneticraft:hydraulic_press>, [<minecraft:paper>, <ore:plateSteel>]);
+RecipeBuilder.get("designer")
+    .setShapeless([<minecraft:paper>, <ore:plateSteel>])
+    .addTool(<ore:artisansCompass>, 50)
+    .addOutput(<magneticraft:hydraulic_press>)
+    .create();
 //Mages Worktable
 recipes.addShaped(<artisanworktables:worktable:7>, [[<minecraft:concrete:11>, <ore:heavyPlateSteel>, <minecraft:concrete:11>], [<minecraft:concrete:11>, <minecraft:concrete:11>, <minecraft:concrete:11>], [null, <artisanworktables:worktable:5>]]);
 //Dark Ingot 
