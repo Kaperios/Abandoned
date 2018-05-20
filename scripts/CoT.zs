@@ -136,3 +136,4 @@ for c_metal in crude_metals {
 }
 
 VanillaFactory.createItem("mixed_metal_compound").register();
+VanillaFactory.createItem("blue_paper").register();
