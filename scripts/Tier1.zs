@@ -164,3 +164,11 @@ recipes.addShaped(<integrateddynamics:squeezer>, [[<ic2:crafting:31>, <minecraft
 //Drying Basin
 recipes.remove(<integrateddynamics:drying_basin>);
 recipes.addShaped(<integrateddynamics:drying_basin>, [[<ore:nuggetIron>, null, <ore:nuggetIron>], [<minecraft:iron_bars>, null, <minecraft:iron_bars>], [<forestry:wood_pile>, <forestry:wood_pile>, <forestry:wood_pile>]]);
+//Scribe Worktable
+recipes.addShaped(<artisanworktables:8>, [[<leatherworks:debarked_log_oak>, <minecraft:paper>, <leath:debarked_log_oak>], [<minecraft:bookshelf>, <minecraft:bookshelf>, <minecraft:bookshelf>], [null, <artisanworktables:worktable:5>]]);
+//Engineers Manual
+RecipeBuilder.get("scribe")
+    .setShapeless([<minecraft:book>, <minecraft:lever>])
+    .addTool(<ore:artisansQuill>, 50)
+    .addOutput(<immersiveengineering:tool:3>)
+    .create();
