@@ -82,9 +82,10 @@ var lumium = MaterialSystem.getMaterialBuilder().setName("Lumium").setColor(1572
 var enderium = MaterialSystem.getMaterialBuilder().setName("Enderium").setColor(1403731).build();
 var refinedGlowstone = MaterialSystem.getMaterialBuilder().setName("Refined Glowstone").setColor(14404400).build();
 var refinedObsidian = MaterialSystem.getMaterialBuilder().setName("Refined Obsidian").setColor(5910723).build();
+var menrilMetal = MaterialSystem.getMaterialBuilder().setName("Menril Metal").setColor(10608363).build();
 
 //Basic Alloys Parts
-var basic_alloys2 = [bronze, constantan, invar, electrum] as Material[];
+var basic_alloys2 = [bronze, constantan, invar, electrum, menrilMetal] as Material[];
 var basic_alloys3 = [steel, lumium, signalum, refinedGlowstone] as Material[];
 var basic_alloys4 = [enderium, refinedObsidian] as Material[];
 var basic_alloys_parts = ["ingot", "dust", "gear", "nugget", "plate", "rod", "bolt", "casing"] as string[];
