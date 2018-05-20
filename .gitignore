@@ -40,3 +40,4 @@ config/ocsensors/javascript/vanilla.js
 local/ftbutilities/all_permissions_full_list.txt
 config/scavenge/IResourceProperty.txt
 config/ChanceCubes/CustomRewards/Resourcepack/CustomSounds-Resourcepack.zip
+config/jei/worldSettings.cfg
