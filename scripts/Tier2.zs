@@ -10,7 +10,7 @@ recipes.addShaped(<pneumaticcraft:air_compressor>, [[<ore:ingotIronCompressed>, 
 //Blue Paper
 recipes.addShapeless(<contenttweaker:blue_paper>, [<minecraft:paper>, <ore:dyeBlue>]);
 //Designer Worktable
-recipes.addShaped(<artisanworktables:worktable:12>, [[<ore:dyeWhite>, <contenttweaker:blue_paper>, <ore:dyeWhite>], [<minecraft:concrete:3>, <minecraft:cocnrete:3>, <minecraft:concrete:3>], [null, <artisanworktables:worktable5>]]);
+recipes.addShaped(<artisanworktables:worktable:12>, [[<ore:plateMenrilIngot>, <ore:dyeWhite>, <ore:plateMenrilIngot>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [null, <artisanworktables:worktable5>]]);
 //Hydraulic Press
 recipes.removeShaped(<magneticraft:hydraulic_press>);
 RecipeBuilder.get("designer")
